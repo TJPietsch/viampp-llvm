@@ -1,0 +1,12 @@
+#ifndef ELF_RELOC
+#error "ELF_RELOC must be defined"
+#endif
+
+ELF_RELOC(R_VIAMPP_NONE, 	0)
+ELF_RELOC(R_VIAMPP_16_pcrel,	1)
+ELF_RELOC(R_VIAMPP_32_pcrel,	2)
+ELF_RELOC(R_VIAMPP_64_pcrel,	3)
+ELF_RELOC(R_VIAMPP_64_abs,	4)
+ELF_RELOC(R_VIAMPP_HI,		5)
+ELF_RELOC(R_VIAMPP_LO,		6)
+
